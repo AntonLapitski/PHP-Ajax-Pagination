@@ -1,0 +1,84 @@
+CREATE TABLE users
+(
+  id        INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  firstname VARCHAR(30) NOT NULL,
+  lastname  VARCHAR(30) NOT NULL,
+  email     VARCHAR(50)
+);
+
+INSERT INTO users (
+  firstname,
+  lastname,
+  email
+)
+  VALUES
+      (
+        'Anton',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Max',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'John',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Greg',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Mark',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Jane',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+         'Hopes',
+         'Lapitski',
+         'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Slash',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Harry',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Ron',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Markus',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Anton',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Anton',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      ),
+      (
+        'Anton',
+        'Lapitski',
+        'a.lapitski.developer@gmail.com'
+      );
